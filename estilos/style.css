@@ -1,0 +1,130 @@
+
+*{
+        margin: 0;
+        padding: 0;
+}
+
+
+body{
+        /* height: 100vh; */
+        box-sizing: border-box;
+        background-color: var(--cor-primaria);
+        color: var(--cor-secundaria);
+ }
+
+.titulo-destaque{
+      color: #d358f8;
+}
+
+.apresentacao {
+        /*height: 100vh;*/
+        padding: 4% 15%;
+        box-sizing: border-box;
+        background-color: black;
+        color: #f6f6f6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.apresentacao_conteudo{
+        width: 625px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+.apresentacao_conteudo_titulo{
+        font-size: 34px;
+        font-family:'Edu NSW ACT Foundation', cursive;
+}
+
+.apresentacao_conteudo_texto{
+        font-size: 21px;
+        font-family:'Alkatra', cursive;
+}
+
+.apresentacao_links{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        gap: 32px;
+}
+
+.apresentacao_links_link{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        border: 2px solid #d358f8;
+        width: 378px;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: #F6F6F6;
+        font-family: 'Montserrat',
+        sans-serif;
+
+}
+
+.apresentacao_links_link:hover {
+    background-color: #272727;
+   }
+
+.apresentacao_links_subtitulo{
+        font-family: 'Alkatra', cursive;
+        font-weight: 400;
+        size: 24px;
+}
+
+img{
+        /*margin-left: 15px;*/
+        width: 550px;
+}
+
+.logo{
+        width: 32px;
+        height: 32px;
+}
+
+.rodape{
+        color: black;
+        background-color: #d358f8;
+        padding: 23px;
+        text-align: center;
+        font-family: 'Alkatra', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        }
+
+.cabecalho_menu_link {
+        font-family:'Montserrat',sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        color: #d358f8;
+        text-decoration: none;
+        background-color: black;
+ }
+
+ .cabecalho{
+        background-color: black;
+        padding:2% 0% 0% 15% ;
+ }
+
+ .cabecalho_menu {
+       display: flex;
+       gap: 60px;
+ }
+
+ :root {
+        --cor-primaria:#000000;
+        --cor-secundaria:#F6F6F6;
+        --cor-tercearia:#d358f8;
+        --cor-hover: #272727;
+        --fonte-principal:'Alkatra', cursive;
+        --fonte-secundaria: 'Montserrat',sans-serif ;
+ }
+ 
